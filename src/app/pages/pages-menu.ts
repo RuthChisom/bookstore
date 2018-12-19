@@ -17,6 +17,20 @@ export const MENU_ITEMS: NbMenuItem[] = [
     group: true,
   },
   {
+    title: 'Store',
+    icon: 'nb-tables',
+    children: [
+      {
+        title: 'Authors',
+        link: '/pages/tables/smart-table',
+      },
+      {
+        title: 'Books',
+        link: '/pages/books/book-table',
+      },
+    ],
+  },
+  {
     title: 'Extra Components',
     icon: 'nb-star',
     children: [
@@ -210,16 +224,6 @@ export const MENU_ITEMS: NbMenuItem[] = [
       {
         title: 'CKEditor',
         link: '/pages/editors/ckeditor',
-      },
-    ],
-  },
-  {
-    title: 'Tables',
-    icon: 'nb-tables',
-    children: [
-      {
-        title: 'Smart Table',
-        link: '/pages/tables/smart-table',
       },
     ],
   },
