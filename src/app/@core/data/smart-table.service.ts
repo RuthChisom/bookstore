@@ -423,6 +423,13 @@ export class SmartTableService {
     'username': '@Sanchez',
     'email': 'lousanchez@comtours.com',
     'age': 16,
+  }, {
+    'id': 61,
+    'firstName': 'Layo',
+    'lastName': 'Daniel',
+    'username': '@layo',
+    'email': 'layo@tulabyte.net',
+    'age': 29,
   }];
 
   getData() {
