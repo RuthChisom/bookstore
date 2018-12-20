@@ -61,7 +61,7 @@ export class BookTableComponent {
   }
 
   onDeleteConfirm(event): void {
-    if (window.confirm('Are you sure you want to delete?')) {
+    if (window.confirm('Are you sure you want to delete this book?')) {
       event.confirm.resolve();
     } else {
       event.confirm.reject();

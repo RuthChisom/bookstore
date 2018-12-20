@@ -25,29 +25,29 @@ export class SmartTableService {
     username: 'Mindy Kaling',
     email: 'barbara@yandex.ru',
   }, {
-    username: '@sevan',
-    email: 'sevan@outlook.com',
+    username: 'Yemi Tula',
+    email: 'yemi@outlook.com',
   }, {
-    username: '@ruben',
-    email: 'ruben@gmail.com',
+    username: 'Udo Geri',
+    email: 'udodi@gmail.com',
   }, {
-    username: '@karen',
-    email: 'karen@yandex.ru',
+    username: 'Charity Chinwe',
+    email: 'chasis@dex.zang',
   }, {
-    username: '@mark',
+    username: 'Mark Zuka',
     email: 'mark@gmail.com',
   }, {
-    username: '@jacob',
-    email: 'jacob@yandex.ru',
+    username: 'Justice Praise',
+    email: 'jacob@ando.net',
   }, {
-    username: '@haik',
-    email: 'haik@outlook.com',
+    username: 'Glory Beyond',
+    email: 'glory@outlook.com',
   }, {
-    username: '@garegin',
-    email: 'garegin@gmail.com',
+    username: 'Obim Nkem',
+    email: 'nkem@gmail.com',
   }, {
-    username: '@krikor',
-    email: 'krikor@yandex.ru',
+    username: 'Ariyo Led',
+    email: 'krikor@ariyo.led',
   }];
 
   getData() {
