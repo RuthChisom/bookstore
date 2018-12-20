@@ -5,8 +5,8 @@ export class BookTableService {
 
   data = [{
     id: 1,
-    firstName: 'Mark',
-    lastName: 'Otto',
+    firstName: 'Ruth',
+    lastName: 'Ndukwe',
     username: '@mdo',
     email: 'mdo@gmail.com',
     age: '28',
