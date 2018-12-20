@@ -30,29 +30,25 @@ export class BookTableComponent {
       confirmDelete: true,
     },
     columns: {
-      id: {
-        title: 'ID',
+      title: {
+        title: 'Title',
+        type: 'string',
+      },
+      description: {
+        title: 'Description',
+        type: 'string',
+      },
+      year: {
+        title: 'Year',
         type: 'number',
       },
-      firstName: {
-        title: 'First Name',
+      author: {
+        title: 'Author',
         type: 'string',
       },
-      lastName: {
-        title: 'Last Name',
+      genre: {
+        title: 'Genre',
         type: 'string',
-      },
-      username: {
-        title: 'Username',
-        type: 'string',
-      },
-      email: {
-        title: 'E-mail',
-        type: 'string',
-      },
-      age: {
-        title: 'Age',
-        type: 'number',
       },
     },
   };
