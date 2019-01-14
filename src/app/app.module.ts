@@ -10,6 +10,8 @@ import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { CoreModule } from './@core/core.module';
 
+import { DataTablesModule } from 'angular-datatables';
+
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ThemeModule } from './@theme/theme.module';
@@ -19,6 +21,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   declarations: [AppComponent],
   imports: [
     BrowserModule,
+    DataTablesModule,
     BrowserAnimationsModule,
     HttpClientModule,
     AppRoutingModule,
